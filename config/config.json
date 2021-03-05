@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "muutosloki-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/muutosloki/MuutoslokiWebPart.js",
+          "manifest": "./src/webparts/muutosloki/MuutoslokiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MuutoslokiWebPartStrings": "lib/webparts/muutosloki/loc/{locale}.js"
+  }
+}
