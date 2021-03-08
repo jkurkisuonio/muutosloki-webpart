@@ -3,13 +3,15 @@ import styles from './Muutosloki.module.scss';
 import { IMuutoslokiProps } from './IMuutoslokiProps';
 import { IMuutoslokiState } from './IMuutoslokiState';
 import { escape } from '@microsoft/sp-lodash-subset';
-
 import 'office-ui-fabric-react/dist/css/fabric.css';
+
 
 
 // @pnp/sp imports  
 import { List, sp } from '@pnp/sp';
 import { MuutosRevisio } from './MuutosRevisio';
+
+
 
 
 export default class Muutosloki extends React.Component<IMuutoslokiProps, IMuutoslokiState> {
