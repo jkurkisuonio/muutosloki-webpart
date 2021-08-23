@@ -2,7 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Näyttää Sharepoint sivun lopussa mahdolliset muutokset sivuun, mikäli käyttäjä kirjoittanut Sharepoint sivun [muutos] kenttään. Hyödyntää Sharepoint-sivun versiohallintaa siten, että näyttää, muutoksia, jotka poikkeavat edellisestä – eli jos sama teksti muutos-kentässä sivun eri versioissa, niin näyttää vain yhden.
 
 [picture of the solution in action, if possible]
 
